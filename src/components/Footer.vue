@@ -40,7 +40,7 @@
         <v-flex xs12 sm3>
             <h1>Contato</h1>
             <div>
-              <a href="mailto:contato@criptorf.com" target="_blank"><v-icon class="material-icons-outlined">email</v-icon><span> contato@criptorf.com</span></a>
+              <a href="mailto:contato@criptorf.com" target="_blank" class="link"><v-icon class="material-icons-outlined">email</v-icon> contato@criptorf.com</a>
             </div>
         </v-flex>
       </v-layout>
@@ -56,14 +56,12 @@
   color: white;
   text-decoration: none;
 }
-
 span {
   color: white;
 }
-
 h1 {
-  /* font-weight: bold; */
   font-size: 20px;
   color: white;
+  text-align: left;
 }
 </style>

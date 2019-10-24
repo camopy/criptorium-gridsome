@@ -7,11 +7,11 @@
           <Home />
         </v-parallax>
         <Value />
+        <v-divider class="divider" />
         <Exchanges />
-        <v-parallax dark src="/home-bg.jpg">
-          <Plans />
-        </v-parallax>
-        <FAQ />
+        <v-divider class="divider" />
+        <Plans />
+        <v-divider class="divider" />
       </v-flex>
     </v-layout>
   </Layout>
@@ -23,7 +23,6 @@ import Home from "~/components/Home";
 import Exchanges from "~/components/Exchanges";
 import Value from "~/components/Value";
 import Plans from "~/components/Plans";
-import FAQ from "~/components/FAQ";
 
 export default {
   components: {
@@ -31,7 +30,6 @@ export default {
     Home,
     Exchanges,
     Value,
-    FAQ,
     Plans
   }
 };

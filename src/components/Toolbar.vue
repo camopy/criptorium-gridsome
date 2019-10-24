@@ -17,10 +17,10 @@
           <g-link to="/plans/" class="link">Planos</g-link>
         </v-btn>
         <v-btn text>
-          <a href="http://localhost:8080/signin" target="_blank" class="link"><span>Entrar</span></a>
+          <a href="http://localhost:8080/signin" target="_blank" class="link">Entrar</a>
         </v-btn>
         <v-btn color="secondary">
-          <a href="http://localhost:8080/signup" target="_blank" class="link"><span>Cadastre-se</span></a>
+          <a href="http://localhost:8080/signup" target="_blank" class="link">Cadastre-se</a>
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -35,7 +35,6 @@ export default {};
   color: white;
   font-weight: bold;
 }
-
 .link {
   color: white;
   text-decoration: none;

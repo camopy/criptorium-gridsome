@@ -16,3 +16,26 @@ export default {
   }
 };
 </script>
+
+<style>
+.background {
+  background-color: var(--v-primary-base);
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+p, span {
+  color: var(--v-text-base);
+}
+.divider {
+  margin: 20px;
+}
+h2, h1 {
+  color: var(--v-text-base);
+  text-align: center;
+}
+.header {
+  background-color: var(--v-primary-base);
+}
+</style>

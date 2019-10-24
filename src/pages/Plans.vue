@@ -4,12 +4,10 @@
       <v-flex>
         <v-container class="header pt-0" fluid>
           <Toolbar />
-          <v-layout column align-center>
-            <h1>Planos</h1>
-          </v-layout>
         </v-container>
         <v-container>
           <Plans/>
+          <FAQ />
         </v-container>
       </v-flex>
     </v-layout>
@@ -19,11 +17,13 @@
 <script>
 import Toolbar from "~/components/Toolbar";
 import Plans from "~/components/Plans";
+import FAQ from "~/components/FAQ";
 
 export default {
   components: {
     Toolbar,
-    Plans
+    Plans,
+    FAQ
   }
 };
 </script>
