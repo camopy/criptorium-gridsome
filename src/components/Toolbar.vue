@@ -8,9 +8,6 @@
 
       <v-toolbar-items>
         <v-btn text>
-          <g-link to="/services/" class="link">Serviços</g-link>
-        </v-btn>
-        <v-btn text>
           <g-link to="/exchanges/" class="link">Exchanges</g-link>
         </v-btn>
         <v-btn text>

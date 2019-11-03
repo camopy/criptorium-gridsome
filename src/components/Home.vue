@@ -2,8 +2,8 @@
   <v-layout column justify-center>
     <v-container>
       <v-flex xs12>
-        <h1 class="display-2 mb-3">Seu portfólio de criptomoedas</h1>
-        <h4 class="subheading">Gere o arquivo para a declaração requerida pela Receita Federal</h4>
+        <h1 class="display-2 mb-3">Uma plataforma para suas</h1>
+        <h1 class="display-2 mb-3">operações em criptomoedas</h1>
         <v-btn color="secondary font-weight-bold"><a href="http://localhost:8080/signup" target="_blank" class="link">Cadastre-se grátis</a></v-btn>
       </v-flex>
     </v-container>

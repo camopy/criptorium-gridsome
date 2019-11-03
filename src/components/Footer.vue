@@ -28,9 +28,6 @@
         <v-flex xs12 sm3>
             <h1>Plataforma</h1>
             <div>
-              <g-link class="link" to="/services/">Serviços</g-link>
-            </div>
-            <div>
               <g-link class="link" to="/exchanges/">Exchanges</g-link>
             </div>
             <div>

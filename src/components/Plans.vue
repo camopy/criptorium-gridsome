@@ -22,7 +22,7 @@
                 </div>
                 <div>
                   <v-icon color="secondary">check_circle</v-icon>
-                  <span>Geração de arquivo para a Receita Federal</span>
+                  <span>Geração de arquivo TXT para a Receita Federal</span>
                 </div>
               </v-container>
             </v-card-text>
@@ -42,14 +42,14 @@
               <v-container>
                 <div>
                   <v-icon color="secondary">check_circle</v-icon>
-                  <span>Tudo do plano Grátis</span>
+                  <span>Tudo do Plano Grátis</span>
                 </div>
                 <div>
                   <v-icon color="text">add</v-icon>
                 </div>
                 <div>
                   <v-icon color="secondary">check_circle</v-icon>
-                  <span>Sincronização com exchanges</span>
+                  <span>Sincronização de operações com exchanges</span>
                 </div>
               </v-container>
               <v-container>

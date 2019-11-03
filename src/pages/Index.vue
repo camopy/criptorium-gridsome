@@ -6,7 +6,7 @@
           <Toolbar />
           <Home />
         </v-parallax>
-        <Value />
+        <Services />
         <v-divider class="divider" />
         <Exchanges />
         <v-divider class="divider" />
@@ -21,7 +21,7 @@
 import Toolbar from "~/components/Toolbar";
 import Home from "~/components/Home";
 import Exchanges from "~/components/Exchanges";
-import Value from "~/components/Value";
+import Services from "~/components/service/Services";
 import Plans from "~/components/Plans";
 
 export default {
@@ -29,7 +29,7 @@ export default {
     Toolbar,
     Home,
     Exchanges,
-    Value,
+    Services,
     Plans
   }
 };
