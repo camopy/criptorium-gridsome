@@ -2,8 +2,8 @@
   <v-layout column justify-center>
     <v-container>
       <v-flex xs12>
-        <h1 class="display-2 mb-3">Uma plataforma para suas</h1>
-        <h1 class="display-2 mb-3">operações em criptomoedas</h1>
+        <h1 class="display-2 mb-3">Visualize todas as suas operações</h1>
+        <h1 class="display-2 mb-3">em criptomoedas num só lugar</h1>
         <v-btn color="secondary font-weight-bold"><a href="http://localhost:8080/signup" target="_blank" class="link">Cadastre-se grátis</a></v-btn>
       </v-flex>
     </v-container>

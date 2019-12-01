@@ -10,7 +10,7 @@
             <span>Born In Code Solutions</span>
           </div>
           <div>
-            <span>CNPJ</span>
+            <span>CNPJ 35.612.434/0001-27</span>
           </div>
         </v-flex>
         <v-flex xs12 sm3>
