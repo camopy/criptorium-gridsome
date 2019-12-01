@@ -26,29 +26,19 @@ export default {
   data: () => ({
     faqs: [
       {
-        question: "Como funciona?",
-        answer: `1. Preencha o cadastro do seu cão aqui (sem compromisso!)
-                        2. Iremos analisar e definir as melhores opções de dietas e quantidade diária
-                        3. Encaminhamos em seu email todas as informações à respeito de valores, entrega, prazos e opções de armazenamento;
-                        4. Ficará a seu critério definir a periodicidade das entregas: semanal, quinzenal ou mensal;
-                        5. Após alguns dias, você receberá em sua casa a primeira entrega, com porções diárias congeladas que seu cão precisa
-                        6. Seu cãozinho tendo aprovado a comidinha, prosseguimos para a produção de um novo ciclo de pedidos conforme periodicidade combinada.
-                        7. Pronto! Seu cãozinho agora será mais feliz!`
+        question: "Como funciona a importação de operações?",
+        answer:
+          "A importação se dá através da sincronização de informações com a API das exchanges suportadas. Para isso, você deve cadastrar em nosso sistema a API Key e Secret Key das exchanges que você utiliza. Você pode cadastrar uma exchange na página \"Exchanges\", clicando no botão \"+\". Lembrando que isso é uma funcionalidade disponível somente no plano Pro."
       },
       {
-        question: "Como os alimentos são preparados?",
+        question: "Como gerar o arquivo para a declaração?",
         answer:
-          "Vegetais e legumes são sempre cozidos no vapor, visando garantir a maior preservação de nutrientes possível. As carnes (lombo, músculo, frango e vísceras são cozidas, enquanto os peixes (Sardinha, Merluza ou Tilápia) são assados."
+          "O arquivo pode ser gerado na página de operações, disponível após você fazer seu login no sistema. Você deve clicar no botão \"GERAR TXT\" e selecionar o mês de operações desejado."
       },
       {
-        question: "Qual é o valor?",
+        question: "Como é feita a transmissão para a Receita Federal?",
         answer:
-          "Cada cãozinho possui necessidades específicas, sendo necessário então dietas personalizadas de acordo com os dados dele. Com isso, o valor mensal da alimentação natural da PetNaturau irá depender de fatores como peso ideal, idade, castração, nível de atividade e restrições específicas de saúde."
-      },
-      {
-        question: "Como é feita a transição?",
-        answer:
-          "Como toda troca de alimentação, é necessário que o cãozinho passe por um período de transição, misturando gradativamente o alimento anterior com a nova alimentação ofertada. O ideal é que esse período dure em torno de 7 dias."
+          "A transmissão do arquivo .txt para a Receita Federal deve ser feita pelo sistema e-CAC disponibilizado no proprio site da receita. Ao acessar o e-CAC, o usuário poderá encontrar o formulário para declaração dentro do menu “Cobrança e Fiscalização”, na opção “Obrigação Acessório - Formulários online e Arquivo de Dados”. Você deve abrir o arquivo que será baixado em seu computador no último passo e então basta clicar em \"Adicionar Arquivos\" e selecionar o .txt gerado pelo nosso sitema. Lembre-se de validar o arquivo .txt antes de transmiti-lo para a receita."
       }
     ]
   })
