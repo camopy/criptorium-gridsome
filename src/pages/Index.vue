@@ -2,7 +2,7 @@
   <Layout>
     <v-layout>
       <v-flex>
-        <v-parallax dark src="/home-bg.jpg">
+        <v-parallax dark src="/home-bg.png">
           <Toolbar />
           <Home />
         </v-parallax>
