@@ -31,6 +31,11 @@ export default {
           "A importação se dá através da sincronização de informações com a API das exchanges suportadas. Para isso, você deve cadastrar em nosso sistema a API Key e Secret Key das exchanges que você utiliza. Você pode cadastrar uma exchange na página \"Exchanges\", clicando no botão \"+\". Lembrando que isso é uma funcionalidade disponível somente no plano Pro."
       },
       {
+        question: "Exchanges adicionadas futuramente também estarão disponíveis para sincronização no plano Pro?",
+        answer:
+          "Sim, todas as exchanges adicionadas posteriormente à sua assinatura do plano Pro estarão disponíveis para sincronização. Ou seja, o plano Pro garante a sincronização para todas as exchanges suportadas."
+      },
+      {
         question: "Como gerar o arquivo para a declaração?",
         answer:
           "O arquivo pode ser gerado na página de operações, disponível após você fazer seu login no sistema. Você deve clicar no botão \"GERAR TXT\" e selecionar o mês de operações desejado."
