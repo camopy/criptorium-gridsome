@@ -9,7 +9,7 @@
           </v-layout>
         </v-container>
         <v-container>
-          <p>O Cripto RF oferece conteúdo e ferramentas para interessados em cripto moedas.<br>
+          <p>O {{$static.metadata.siteName}} oferece conteúdo e ferramentas para interessados em cripto moedas.<br>
             Os usuários do site concordam com as condições impostas por este termo de uso ao passar a utilizar o site.</p>
           <br>
           <h2>Conteúdo informativo</h2>
@@ -24,12 +24,20 @@
             <p>A transmissão de informações para a Receita Federal deve ser feita pelo próprio usuário, através do sistema e-CAC disponibilizado no proprio site da Receita Federal. Nosso site simplesmente gera um arquivo .txt com as suas operações para o mês escolhido. Esse arquivo .txt pode ser usado no e-CAC para realizar a importação das operações.</p>
           <br>
           <h2>Acesso à sua conta</h2>
-            <p>O Cripto RF não se responsabiliza pela incapacidade de acesso à conta devido à perda ou esquecimento da senha. A única forma de recuperação de acesso é utilizando a opção “Esqueci minha senha”, onde é possível solicitar que a senha seja enviada para o email cadastrado.</p>
+            <p>O {{$static.metadata.siteName}} não se responsabiliza pela incapacidade de acesso à conta devido à perda ou esquecimento da senha. A única forma de recuperação de acesso é utilizando a opção “Esqueci minha senha”, onde é possível solicitar que a senha seja enviada para o email cadastrado.</p>
         </v-container>
       </v-flex>
     </v-layout>
   </Layout>
 </template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
 
 <script>
 import Toolbar from "~/components/Toolbar";

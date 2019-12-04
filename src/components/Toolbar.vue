@@ -2,7 +2,7 @@
   <v-container>
     <v-toolbar color="transparent" flat>
       <v-toolbar-title>
-        <g-link to="/" class="link">Cripto RF</g-link></v-toolbar-title>
+        <g-link to="/" class="link">{{$static.metadata.siteName}}</g-link></v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -23,6 +23,15 @@
     </v-toolbar>
   </v-container>
 </template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
+
 <script>
 export default {};
 </script>

@@ -4,7 +4,7 @@
       <v-layout row wrap>
         <v-flex xs12 sm3>
           <div>
-            <h1>Cripto RF</h1>
+            <h1>{{$static.metadata.siteName}}</h1>
           </div>
           <div>
             <span>Born In Code Solutions</span>
@@ -44,6 +44,14 @@
     </v-container>
   </v-container>
 </template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
 
 <style scoped>
 .container {
