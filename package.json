@@ -1,5 +1,5 @@
 {
-  "name": "cripto-rf-gridsome",
+  "name": "criptorium-gridsome",
   "private": true,
   "scripts": {
     "build": "gridsome build",
