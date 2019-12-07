@@ -37,7 +37,7 @@
         <v-flex xs12 sm3>
             <h1>Contato</h1>
             <div>
-              <a href="mailto:contato@criptorf.com" target="_blank" class="link"><v-icon class="material-icons-outlined">email</v-icon> contato@criptorf.com</a>
+              <a href="mailto:contato@criptorium.com.br" target="_blank" class="link"><v-icon class="material-icons-outlined">email</v-icon> contato@criptorium.com.br</a>
             </div>
         </v-flex>
       </v-layout>
