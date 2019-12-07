@@ -76,7 +76,7 @@
     <v-container>
       <v-layout row justify-center>
         <v-btn color="secondary font-weight-bold">
-          <a href="http://localhost:8080/signup" target="_blank" class="link">Cadastre-se</a>
+          <a href="https://app.criptorium.com.br/signup" target="_blank" class="link">Cadastre-se</a>
         </v-btn>
       </v-layout>
     </v-container>
